@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="c.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tamagochi-Bony</title>
+</head>
+<body>
+    <die>
+    <div class="main">
+
+        <h1>Tamagochi-Bonnie</h1>
+        <p id="rez">Кліки: 0</p>
+
+        <img  onclick="clicker()" id="photo" src="image/bony zv 2.png " width="1000px">
+
+        <div class="stat">
+        <p id="food">Їжа: 70%</p>
+        <p id="sleep">Сон: 70%</p>  
+        <p id="happy">Розвага: 70%</p>
+    </div>
+
+        <table class="my_table">
+            <tr>
+                <td><img class="locked" id="foodd" src="image/Untitled-1.png" onclick="eat1()"> 
+                <p align="center">2💰|+5%</p>
+                </td>
+                <td><img class="locked" id="sleepp" src="image/кофе іконка.png" onclick="sleep1()">
+                    <p align="center">2💰|+5%</p>
+                </td>
+                <td><img class="locked" id="game" src="image/Фотоапарат иконка.png" onclick="play1()">
+                    <p align="center">2💰|+5%</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img class="locked" id="food1" src="image/багато моркви.png" onclick="eat2()">
+                    <p align="center">5💰|+15%</p>
+                </td>
+                <td><img class="locked" id="sleep1" src="image/Спать іконка.png" onclick="sleep2()">
+                    <p align="center">5💰|+15%</p>
+                </td>
+                <td><img class="locked"  id="game1"src="image/Гітара иконка.png" onclick="play2()">
+                    <p align="center">5💰|+15%</p>
+                </td>
+            </tr>
+        </table>
+        <button id="start-btn" onclick="startGame()">Start Game</button>
+    </div>
+<br><br>
+    <div class="fon">
+        <h1>Background</h1>
+        <img onclick="fon1()" class="fonImg" src="F.png" >
+        <img onclick="fon2()" class="fonImg" src="https://a-static.besthdwallpaper.com/purple-windows-11-background-wallpaper-1920x1080-106351_48.jpg" alt="">
+        <br>
+        <img onclick="fon3()" class="fonImg" src="https://img.freepik.com/free-vector/gradient-liquid-abstract-background_23-2148930549.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+        <img onclick="fon4()" class="fonImg" src="https://fonssite.wordpress.com/wp-content/uploads/2015/11/windows-10-microsoft-violet.jpg" alt="">
+        <br>
+        <img onclick="fon5()" class="fonImg" src="https://st4.depositphotos.com/1031174/20525/i/450/depositphotos_205251712-stock-illustration-closeup-purple-textured-background.jpg" alt="">
+        <img onclick="fon6()" class="fonImg" src="/image/fon6.png" alt="">
+    </div>
+
+    <br><br>
+    <div class="ach">
+        <h1>Achievements</h1>
+
+        <div class="ach-list">
+        
+        <div class="achiv">
+        <img onclick="achZor()" class="locked2" id="achZor"  src="https://i.pinimg.com/474x/68/bb/5f/68bb5f6dee22521c7b8f01ec71a77da9.jpg" >
+        <p>Зоря щастя </p>
+    </div>
+
+    <div class="achiv">
+        <img onclick="achMili()" class="locked2" id="achMili"  src="https://st2.depositphotos.com/7128044/9937/v/450/depositphotos_99379396-stock-illustration-money-stack-illustration-flat-style.jpg" alt="">
+        <p>Мільйонер</p>       
+        </div>
+
+        
+
+        <div class="achiv">
+        <img onclick="achIzv()" class="locked2" id="achIzv"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTithPS2u6Ri7V_dYidKflCyJgRCzDWIBw3sA&s" alt="">
+        <p>Ізвєрг</p>
+    </div>
+
+        <div class="achiv">
+        <img onclick="achKnop()" class="locked2" id="achKnop"  src="https://static6.depositphotos.com/1003034/633/i/450/depositphotos_6338441-stock-photo-red-button.jpg" alt="">
+        <p>Копка</p>
+    </div>
+
+       
+
+        <div class="achiv">
+        <img onclick="achNo()" class="locked2" id="achNo" src="https://cdn-icons-png.flaticon.com/512/11202/11202657.png" alt="">
+        <p>Не хочу</p>
+        </div>
+
+        <div class="achiv">
+        <img onclick="achHz()" class="locked2" id="achHz"   src="https://i.pinimg.com/736x/f0/ea/b7/f0eab73b9d5876b9e1fdbeea3d88c7e6.jpg" alt="">
+        <p>Хз</p>
+    </div>
+</div>
+    </div>
+
+    </die>
+    <audio id="SonClic" src="Clic Clicov.mp3"></audio>
+    <audio id="SonClicKnop" src="Clic knop.mp3"></audio>
+    <audio id="SonAch" src="steam-achievement.mp3"></audio>
+    <audio id="SonFonZm" src="button-click-short-noisy-sonorous.mp3"></audio>
+    
+</body>
+<script src="j.js"></script>
+</html>

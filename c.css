@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+
+*{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+}
+p{
+    font-size:32px;
+}
+body{
+    background-size: cover;
+    background-color: rgb(124, 93, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+}
+.main{
+    background-color: rgb(254, 231, 255);
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px black;
+    border:4px solid rgb(92, 73, 92);
+}
+#photo{
+    transition: 0.3s;
+    border:4px solid rgb(92, 73, 92);
+    width: 400px;
+    border-radius:20px ;
+}
+#start-btn{
+    width: 400px;
+    height: 50px;
+    font-size: 33spx;
+    border-radius: 20px;
+    background-color: purple;
+}
+.my_table{
+    margin: 20px;
+    border-spacing:15;
+}
+
+.my_table img{
+    width: 150px;
+    cursor: pointer;
+    transition: 0.015s;
+}
+
+.my_table img:active{
+    transform: scale(0.89);
+}
+
+.locked{
+    opacity: 0.5;
+    filter: 0.2;
+    pointer-events: none;
+    
+
+}
+td img{
+    width: 100px;
+    height: 150px;
+}
+td p{
+    padding: 2px;
+    font-size: 35;
+    background-color: rgb(198, 169, 199);
+    border-radius: 30px;
+}
+.fon p{
+    padding: 2px;
+    font-size: 35;
+    background-color: rgb(198, 169, 199);
+    border-radius: 30px;
+
+}
+
+.stat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.fon{
+    background-color:rgb(254, 231, 255) ;
+    border:4px solid rgb(92, 73, 92);
+    border-radius:20px ;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+.fonImg{
+    border:2px solid rgb(92, 73, 92);
+    width: 200px;
+    height: 120px;
+    border-radius:20px ;
+}
+#start-btn{
+    font-size: 35px;
+}
+.ach img{
+    border:2px solid rgb(92, 73, 92);
+    width: 120px;
+    height: 120px;
+    border-radius:20px ;
+}
+
+.ach{
+    background-color:rgb(254, 231, 255) ;
+    border:4px solid rgb(92, 73, 92);
+    border-radius:20px ;
+    text-align: center;
+    width: 500px;
+    padding: 20px;
+}
+.ach-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.achiv{
+    width: 125px;
+    
+}
+.achiv p{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.locked2{
+    filter: grayscale(1) blur(3px);
+}
