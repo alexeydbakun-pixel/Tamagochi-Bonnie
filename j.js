@@ -352,7 +352,7 @@ function fon5() {
 function fon6() {
     ZmFon()
     document.body.style.backgroundColor = "";
-    document.body.style.backgroundImage="url(https://pixnio.com/free-images/2025/05/31/2025-05-31-13-39-19-1344x753.png)"
+    document.body.style.backgroundImage="url(fon6.png)"
 }
 //звук ачивки
 function sonAch() {
