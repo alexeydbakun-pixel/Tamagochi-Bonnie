@@ -352,7 +352,7 @@ function fon5() {
 function fon6() {
     ZmFon()
     document.body.style.backgroundColor = "";
-    document.body.style.backgroundImage="url(fon6.png)"
+    document.body.style.backgroundImage="url(fon6.jpg)"
 }
 //звук ачивки
 function sonAch() {
